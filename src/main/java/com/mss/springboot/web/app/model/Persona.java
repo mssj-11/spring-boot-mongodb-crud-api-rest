@@ -2,7 +2,10 @@ package com.mss.springboot.web.app.model;
 
 import org.springframework.data.annotation.Id;
 
+
+
 public class Persona {
+	
 	
 	@Id
 	private Long id;
@@ -11,7 +14,8 @@ public class Persona {
 	private String direccion;
 	private String telefono;
 	
-
+	
+	
 	
 	public Persona() {
 	}
